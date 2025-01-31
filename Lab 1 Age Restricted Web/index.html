@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Age Restricted Website">
+        <!-- Link has to have 3 attributes -->
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <!-- Title has to be in form "child | parent" -->
+        <title>Discussion 1 | CS 391</title>
+        <body>
+            <!-- Input has to have type and label tag -->
+            <lable for="age-input">Age Input: </lable><input type="text" id="age-input">
+            <button onclick="checkAge()">Check your age</button>
+
+            <div id="main-content">
+                <!-- Img has to have src and alt -->
+                <img id="profile-pic" src="Me.jpeg" alt="Picture of Kevin Tan">
+                <p>
+                    I am Kevin Tan and I am a senior currently studying computer science in Boston University. I am from New York City. This
+                    picture is taken in Isabella Stewart Gardner Museum.
+                </p>
+            </div>
+
+            <div id="error-content">
+                <p id="error-message"></p>
+            </div>
+
+            <script src="script.js"></script>
+        </body>
+    </head>
+</html>
