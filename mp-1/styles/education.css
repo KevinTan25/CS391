@@ -1,0 +1,160 @@
+/* Global reset */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+/* Centering the page */
+#page-wrapper {
+    width: 90vw;
+    margin: 2vh auto;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 2vw;
+    background-color: #809BCE;
+    color: #FFB6C1;
+    text-align: left;
+}
+
+/* Two-column container */
+#container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #4682B4;
+}
+
+/* Navigation */
+nav {
+    width: 25%;
+    background-color: #FAE1DD;
+    padding: 1vw;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* Removes the bullet points */
+    list-style: none; 
+    text-align: center;
+    padding-left: 0;
+}
+
+nav li {
+    font-size: calc(10px + 1vw);
+    width: 90%;
+    background-color: #809BCE;
+    padding: 2vh 0;
+    margin: 3vh auto;
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F0F8FF;
+    display: block;
+    width: 100%;
+    padding: 1vh;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #003366;
+}
+
+/* Main content */
+#education-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 4vh;
+    background-color: #4682B4;
+}
+
+/* School Box */
+.school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%; /* Make them equal width */
+    background-color: #D8E2DC;
+    padding: 2vh;
+    border-radius: 8px;
+}
+
+/* School Logos */
+.school-logo {
+    height: 40vh;
+    width: auto;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.school h3, .school p {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #809BCE;
+    display: flex;
+    color: #FFB6C1;
+    justify-content: left;
+    flex-direction: row;
+    padding: 2vh;
+}
+
+footer a {
+    color: #F0F8FF;
+}
+
+footer a:hover {
+    background-color: #003366;
+}
+
+
+
+/* Responsive Design */
+@media screen and (max-width: 900px) {
+    #container {
+        flex-direction: column;
+    }
+    
+    nav {
+        width: 100%;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    nav li {
+        font-size: calc(2px + 1.5vw);
+        width: auto;
+        padding: 1% 1%;
+        margin: 1% .5%;
+    }
+    
+    main {
+        width: 100%;
+    }
+    
+    #education-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .school {
+        width: 90%;
+        margin-bottom: 2vh;
+    }
+}
