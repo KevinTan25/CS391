@@ -15,10 +15,10 @@
 header {
     display: flex;
     flex-direction: column;
-    padding: 2vh 2vw;
+    padding: 10vh 2vw;
     background-color: #809BCE;
     color: #FFB6C1;
-    text-align: center;
+    text-align: left;
 }
 
 /* Two-column container */
@@ -32,7 +32,7 @@ header {
 /* Navigation */
 nav {
     width: 25%;
-    background-color: #0ABAB5;
+    background-color: #FAE1DD;
     padding: 1vw;
 }
 
@@ -49,7 +49,7 @@ nav ul {
 nav li {
     font-size: calc(10px + 1vw);
     width: 90%;
-    background-color: #4682B4;
+    background-color: #809BCE;
     padding: 2vh 0;
     margin: 3vh auto;
     border-radius: 5px;
@@ -105,7 +105,7 @@ main p {
 }
 
 #main-title {
-    text-align: center;
+    text-align: left;
     font-size: calc(2px + 2vw);
     color: #FFB6C1;
 }
@@ -115,7 +115,7 @@ footer {
     background-color: #809BCE;
     display: flex;
     color: #FFB6C1;
-    justify-content: space-evenly;
+    justify-content: left;
     flex-direction: row;
     padding: 2vh;
 }
