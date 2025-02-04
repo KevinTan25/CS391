@@ -74,7 +74,7 @@ nav a:hover {
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
-    padding: 4vh;
+    padding: 8vh;
     background-color: #4682B4;
 }
 
@@ -83,18 +83,19 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 45%; /* Make them equal width */
+    width: 30vw;
     background-color: #D8E2DC;
     padding: 2vh;
-    border-radius: 8px;
+    border-radius: 10px;
+    margin: 0 0.5vw;
 }
 
 /* School Logos */
 .school-logo {
-    height: 40vh;
-    width: auto;
+    height: auto;
+    width: 30vw;
     max-width: 300px;
-    border-radius: 5px;
+    padding: 5px;
 }
 
 .school h3, .school p {
@@ -156,5 +157,9 @@ footer a:hover {
     .school {
         width: 90%;
         margin-bottom: 2vh;
+    }
+
+    .school p {
+        font-size: (2px + 1.5vw);
     }
 }
