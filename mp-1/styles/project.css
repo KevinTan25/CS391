@@ -1,0 +1,184 @@
+/* Global reset */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+/* Centering the page */
+#page-wrapper {
+    width: 90vw;
+    margin: 0vh auto;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 2vw;
+    background-color: #89ABE3;
+    color: #27273b;
+    text-align: left;
+}
+
+/* Two-column container */
+#container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #00246B;
+}
+
+/* Navigation */
+nav {
+    width: 25%;
+    background-color: #FAE1DD;
+    padding: 1vw;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* Removes the bullet points */
+    list-style: none; 
+    text-align: center;
+    padding-left: 0;
+}
+
+nav li {
+    font-size: calc(10px + 1vw);
+    width: 90%;
+    background-color: #00246B;
+    padding: 2vh 0;
+    margin: 3vh auto;
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F0F8FF;
+    display: block;
+    width: 100%;
+    padding: 1vh;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #003366;
+}
+
+/* Main Content */
+main {
+    padding: 2vh;
+}
+
+#projects-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3vh;
+    background-color: #F0F8FF;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+.project-entry {
+    background-color: #D8E2DC;
+    padding: 2vh;
+    margin-bottom: 2vh;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.project-title {
+    font-size: calc(2vh + 1vw);
+    font-weight: bold;
+    color: #003366;
+}
+
+.date {
+    font-style: italic;
+    font-size: calc(1vw + 5px);
+}
+
+.desc {
+    padding-left: 2vw;
+}
+
+#github-link {
+    color: #003366;
+}
+
+#github-link:hover {
+    background-color: #003366;
+}
+
+
+/* Footer */
+footer {
+    background-color: #809BCE;
+    display: flex;
+    color: #27273b;
+    justify-content: left;
+    flex-direction: row;
+    padding: 2vh;
+}
+
+footer a {
+    color: #F0F8FF;
+}
+
+footer a:hover {
+    background-color: #003366;
+}
+
+
+
+/* Responsive Design */
+@media screen and (max-width: 900px) {
+    #container {
+        flex-direction: column;
+    }
+    
+    nav {
+        width: 100%;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    nav li {
+        font-size: calc(2px + 1.5vw);
+        width: auto;
+        padding: 1% 1%;
+        margin: 1% .5%;
+    }
+    
+    main {
+        width: 100%;
+    }
+    
+    /* Main Content */
+    #projects-list {
+        width: 95%;
+    }
+    
+    .project-entry {
+        max-width: 100%;
+        padding: 2vh;
+        margin-bottom: 2vh;
+    }
+    
+    .project-title {
+        font-size: calc(2vh + 1vw);
+    }
+    
+    .date {
+        font-size: calc(1vh + 0.8vw);
+    }
+}
