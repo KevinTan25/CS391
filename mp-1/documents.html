@@ -2,37 +2,75 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Kevin Tan Contacts</title>
+        <title>Contacts | Resume</title>
+        <link type="text/css" rel="stylesheet" href="styles/docs.css">
     </head>
     <body>
-        <!-- Header -->
-        <header>
-            <h1>Kevin Tan's Contacts</h1>
-        </header>
+        <div id="page-wrapper">
+            <!-- Header -->
+            <header>
+                <h1>Kevin Tan's Contacts</h1>
+            </header>
+            
+            <div id="container">
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="nav-button">Home</a></li>
+                        <li><a href="education.html" class="nav-button">Education</a></li>
+                        <li><a href="employment.html" class="nav-button">Employment</a></li>
+                        <li><a href="projects.html" class="nav-button">Projects</a></li>
 
-        <nav>
-            <a href="index.html">Home</a>
-        </nav>
+                        <li><a href="certificates.html" class="nav-button">Certificates</a></li>
+                        <li><a href="documents.html" class="nav-button">Contact</a></li>
+                    </ul>
+                </nav>
 
-        <!-- Main -->
-        <main>
-            <h3>Links to my websites</h3>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/kevin-tan-984a29258" target="_blank">Linked In</a></li>
-                <li><a href="https://github.com/KevinTan25" target="_blank">Github</a></li>
-            </ul>
+                <!-- Main -->
+                <main>
+                    <div id="links">
+                    <h3>Links to my websites</h3><br>
+                        <div class="link-item">
+                            <a href="https://www.linkedin.com/in/kevin-tan-984a29258" target="_blank">
+                                <img src="src/linkedin.png" alt="LinkedIn Picture Link" class="contact-logo">
+                            </a><br>                        
+                            <a href="https://www.linkedin.com/in/kevin-tan-984a29258" target="_blank" class="real-link">Linked In</a>
+                        </div>
 
-            <h3>Contact Information</h3>
-            <ul>
-                <li>Email: ktan03@bu.edu</li>
-                <li>Work Email: kevtan.work@gmail.com</li>
-                <li>Phone Number: 917-935-9796</li>
-            </ul>
-        </main>
+                        <div class="link-item">
+                            <a href="https://github.com/KevinTan25" target="_blank">
+                                <img src="src/githubimg.png" alt="Github Picture Link" class="contact-logo">
+                            </a>
+                            <a href="https://github.com/KevinTan25" target="_blank" class="real-link">Github</a>
+                        </div>
+                    </div>
 
-        <!-- Footer -->
-        <footer>
-            <p>All Rights Reserved by Kevin Tan <a href="">Credits</a> &copy;</p>
-        </footer>
+                    <div id="contact-info">
+                        <h3>Contact Information</h3>
+                        <span class="contact-label">Personal Email:</span> ktan03@bu.edu<br>
+                        <span class="contact-label">Work Email:</span> kevtan.work@gmail.com<br>
+                        <span class="contact-label">Phone Number:</span> 917-935-9796<br>
+                    </div>
+
+                    <div id="references">
+                        <h3>References</h3>
+                        <div class="reference-item">
+                            <p class="reference-name">Anna Richardson</p>
+                            <p class="reference-position">Stage Manager, BU College of Fine Arts</p>
+                            <p class="reference-email">Email: annagr@bu.edu</p>
+                        </div>
+                        <div class="reference-item">
+                            <p class="reference-name">Fan Yang</p>
+                            <p class="reference-position">Senior Staff Software Engineer, Google | Professor, Boston University</p>
+                            <p class="reference-email">Email: fayang@bu.edu</p>
+                        </div>
+                    </div>
+                </main>
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                <p>All Rights Reserved by Kevin Tan <a href="">Credits</a> &copy;</p>
+            </footer>
+        </div>
     </body>
 </html>

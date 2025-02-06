@@ -70,49 +70,97 @@ nav a:hover {
 
 /* Main Content */
 main {
-    padding: 2vh;
-}
-
-#projects-list {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    padding: 3vh;
-    background-color: #F0F8FF;
-    border-radius: 10px;
-    width: 80%;
-    margin: auto;
-}
-
-.project-entry {
-    background-color: #D8E2DC;
-    padding: 2vh;
-    margin-bottom: 2vh;
-    border-radius: 8px;
+    align-items: center;
     width: 100%;
+    margin: auto;
+    color: #27273b;
 }
 
-.project-title {
-    font-size: calc(2vh + 1vw);
+/* Contact Links */
+#links {
+    text-align: center;
+    width: 80%;
+    padding: 2vh;
+    background-color: #E8F1F2;
+    border-radius: 10px;
+    margin-bottom: 4vh;
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+
+.real-link {
+    text-decoration: none;
+    display: block;
+    padding: 1vh;
+    background-color: #00246B;
+    color: #F0F8FF;
+}
+
+.link-item:hover {
+    text-decoration: underline;
+}
+
+.contact-logo {
+    width: 4vw;
+    height: auto;
+    margin-right: 10px;
+}
+
+
+/* Contact Information */
+#contact-info {
+    text-align: center;
+    width: 80%;
+    background-color: #E8F1F2;
+    padding: 2vh;
+    border-radius: 10px;
+    margin-bottom: 4vh;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+.contact-label {
     font-weight: bold;
     color: #003366;
 }
 
-.date {
-    font-style: italic;
-    font-size: calc(1vw + 5px);
+/* References */
+#references {
+    text-align: center;
+    width: 80%;
+    background-color: #E8F1F2;
+    padding: 2vh;
+    border-radius: 10px;
 }
 
-.desc {
-    padding-left: 2vw;
+.reference-item {
+    margin-bottom: 2vh;
 }
 
-#github-link {
+.reference-name {
+    font-size: calc(1.5vh + 1vw);
+    font-weight: bold;
     color: #003366;
 }
 
-#github-link:hover {
-    background-color: #003366;
+.reference-position {
+    font-size: calc(1.2vh + 1vw);
+    font-style: italic;
+    color: #003366;
+}
+
+.reference-email {
+    color: #003366;
+    font-size: calc(0.5vh + 1vw);
 }
 
 
@@ -164,21 +212,35 @@ footer a:hover {
     }
     
     /* Main Content */
-    #projects-list {
-        width: 95%;
+    .contact-logo {
+        max-width: 5vw;
     }
-    
-    .project-entry {
-        max-width: 100%;
-        padding: 2vh;
-        margin-bottom: 2vh;
+
+    /* Adjust widths of content sections */
+    #links, #contact-info, #references {
+        width: 80%;
+        margin: 10px;
     }
-    
-    .project-title {
-        font-size: calc(2vh + 1vw);
+
+    .contact-label {
+        flex-direction: column;
+        align-items: center;
     }
-    
-    .date {
+
+    .real-link {
+        font-size: calc(1vh + 1vw);
+        text-align: center;
+    }
+
+    .reference-name {
+        font-size: calc(1.3vh + 1vw);
+    }
+
+    .reference-position {
         font-size: calc(1vh + 0.8vw);
+    }
+
+    .reference-email {
+        font-size: calc(0.8vh + 1vw);
     }
 }
