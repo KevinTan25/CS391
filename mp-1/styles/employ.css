@@ -21,7 +21,6 @@ header {
     text-align: left;
 
     font-family: "Dancing Script", serif;
-    font-optical-sizing: auto;
     font-style: normal;
     font-weight: 600;
     font-size: 1.5vw;
@@ -189,17 +188,21 @@ footer a:hover {
         justify-content: center;
     }
 
+    #employment-main h2 {
+        font-size: calc(7px + 3vw);
+    }
+
     .employments {
         padding: 2vh;
         margin-bottom: 2vh;
     }
     
     .job-title {
-        font-size: (10px + 3vw);
+        font-size: calc(5px + 2.5vw);
     }
     
     .company, .job-dates {
-        font-size: (2px + 1.5vw);
+        font-size: calc(2px + 1.5vw);
     }
 
     #wtcimg {
