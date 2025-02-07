@@ -7,7 +7,7 @@
 
 /* Centering the page */
 #page-wrapper {
-    width: 90vw;
+    width: 70%;
     margin: 0vh auto;
 }
 
@@ -186,8 +186,26 @@ footer a:hover {
 
 /* Responsive Design */
 @media screen and (max-width: 900px) {
+    #page-wrapper {
+        width: 100%
+    }
+
+    header {
+        text-align: center;
+    }
+
+    #main-title {
+        text-align: center;
+        font-size: calc(2px + 3vw);
+    }
+
+    footer {
+        justify-content: center;
+    }
+    
     #container {
         flex-direction: column;
+        text-align: center;
     }
     
     nav {

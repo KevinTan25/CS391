@@ -8,10 +8,11 @@ function addition() {
     let errorMessage = "";
     let output = 0;
 
-    if (isNaN(num)) {
+    if (num == "" || num2 == "") {
+        errorMessage = "Please fill the boxes."
+    } else if (isNaN(num)) {
         errorMessage += "Input number 1 is not a number. Please enter a valid number.";
-    }
-    if (isNaN(num2)) {
+    } else if (isNaN(num2)) {
         errorMessage += "Input number 2 is not a number. Please enter a valid number.";
     }
 
@@ -39,10 +40,11 @@ function subtract() {
     let errorMessage = "";
     let output = 0;
 
-    if (isNaN(num)) {
+    if (num == "" || num2 == "") {
+        errorMessage = "Please fill the boxes."
+    } else if (isNaN(num)) {
         errorMessage += "Input number 1 is not a number. Please enter a valid number.";
-    }
-    if (isNaN(num2)) {
+    } else if (isNaN(num2)) {
         errorMessage += "Input number 2 is not a number. Please enter a valid number.";
     }
 
@@ -70,10 +72,11 @@ function multiply() {
     let errorMessage = "";
     let output = 0;
 
-    if (isNaN(num)) {
+    if (num == "" || num2 == "") {
+        errorMessage = "Please fill the boxes."
+    } else if (isNaN(num)) {
         errorMessage += "Input number 1 is not a number. Please enter a valid number.";
-    }
-    if (isNaN(num2)) {
+    } else if (isNaN(num2)) {
         errorMessage += "Input number 2 is not a number. Please enter a valid number.";
     }
 
@@ -101,7 +104,9 @@ function divide() {
     let errorMessage = "";
     let output = 0;
 
-    if (isNaN(num)) {
+    if (num == "" || num2 == "") {
+        errorMessage = "Please fill the boxes."
+    } else if (isNaN(num)) {
         errorMessage += "Input number 1 is not a number. Please enter a valid number.";
     } else if (isNaN(num2)) {
         errorMessage += "Input number 2 is not a number. Please enter a valid number.";
@@ -135,10 +140,11 @@ function power() {
     let errorMessage = "";
     let output = 1;
 
-    if (isNaN(num)) {
+    if (num == "" || pow == "") {
+        errorMessage = "Please fill the boxes."
+    } else if (isNaN(num)) {
         errorMessage += "Input number is not a number. Please enter a valid number.";
-    }
-    if (isNaN(pow)) {
+    } else if (isNaN(pow)) {
         errorMessage += "Input power is not a number. Please enter a valid number.";
     }
 
