@@ -63,6 +63,29 @@
                             <li>Designed and implemented both front-end and back-end components to create a seamless user experience, utilizing modern web development frameworks.</li>
                         </ul>
                     </div>
+
+                    <div id="calc">
+                        <h3 class="project-title">Calculator</h3>
+                        <lable for="number-input" id="number1">Number 1: </lable><input type="text" id="number-input" class="calc-input">
+                        <lable for="number2-input" id="number2">Number 2: </lable><input type="text" id="number2-input" class="calc-input">
+    
+                        <div id="calc-btn">
+                            <button onclick="addition()" class="calc-buttons">+</button>
+                            <button onclick="subtract()" class="calc-buttons">-</button>
+                            <button onclick="multiply()" class="calc-buttons">*</button>
+                            <button onclick="divide()" class="calc-buttons">/</button>
+                            <button onclick="power()" class="calc-buttons">**</button>
+                            <button onclick="clearFields()" class="calc-buttons">Clear</button>
+                        </div>
+
+                        <div id="output-content">
+                            <p id="output"></p>
+                        </div>
+    
+                        <div id="error-content">
+                            <p id="error-message"></p>
+                        </div>
+                    </div>
                 </div>
             </main>
             </div>
@@ -71,5 +94,7 @@
                 <p>All Rights Reserved by Kevin Tan <a href="">Credits</a> &copy;</p>
             </footer>
         </div>
+
+        <script src="calculator.js"></script>
     </body>
 </html>
