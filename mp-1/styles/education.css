@@ -137,12 +137,15 @@ footer a:hover {
     
     nav {
         width: 100%;
+        background-color: #dda0dd;
     }
     
     nav ul {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        max-width: 100%;
+        background-color: #89ABE3;
     }
     
     nav li {
