@@ -19,6 +19,12 @@ header {
     background-color: #89ABE3;
     color: #27273b;
     text-align: left;
+
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5vw;
 }
 
 /* Two-column container */
@@ -106,7 +112,7 @@ main p {
 
 #main-title {
     text-align: left;
-    font-size: calc(2px + 2vw);
+    font-size: calc(2px + 4vw);
     color: #27273b;
 }
 
@@ -150,7 +156,7 @@ footer a:hover {
 
     #main-title {
         text-align: center;
-        font-size: calc(2px + 3vw);
+        font-size: calc(10px + 5vw);
     }
 
     footer {
