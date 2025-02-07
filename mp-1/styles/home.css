@@ -140,6 +140,14 @@ footer a:hover {
         text-align: center;
     }
 
+    #headerBack {
+        max-width: 100%;
+    }
+
+    #profile-image {
+        max-width: 100%;
+    }
+
     #main-title {
         text-align: center;
         font-size: calc(2px + 3vw);

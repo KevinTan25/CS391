@@ -234,7 +234,7 @@ footer a:hover {
     
     /* Main Content */
     .contact-logo {
-        max-width: 5vw;
+        max-width: 100%;
     }
 
     /* Adjust widths of content sections */

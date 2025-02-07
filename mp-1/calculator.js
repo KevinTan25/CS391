@@ -26,7 +26,7 @@ function addition() {
     } else {
         document.getElementById("error-message").innerHTML = errorMessage;
         document.getElementById("error-content").style.visibility = "visible";
-        document.getElementById("output-content").style.visibility = "hidden";
+        // document.getElementById("output-content").style.visibility = "hidden";
     }
 }
 
@@ -58,7 +58,7 @@ function subtract() {
     } else {
         document.getElementById("error-message").innerHTML = errorMessage;
         document.getElementById("error-content").style.visibility = "visible";
-        document.getElementById("output-content").style.visibility = "hidden";
+        // document.getElementById("output-content").style.visibility = "hidden";
     }
 }
 
@@ -90,7 +90,7 @@ function multiply() {
     } else {
         document.getElementById("error-message").innerHTML = errorMessage;
         document.getElementById("error-content").style.visibility = "visible";
-        document.getElementById("output-content").style.visibility = "hidden";
+        // document.getElementById("output-content").style.visibility = "hidden";
     }
 }
 
@@ -124,7 +124,7 @@ function divide() {
     } else {
         document.getElementById("error-message").innerHTML = errorMessage;
         document.getElementById("error-content").style.visibility = "visible";
-        document.getElementById("output-content").style.visibility = "hidden";
+        // document.getElementById("output-content").style.visibility = "hidden";
     }
 }
 
@@ -172,13 +172,13 @@ function power() {
     } else {
         document.getElementById("error-message").innerHTML = errorMessage;
         document.getElementById("error-content").style.visibility = "visible";
-        document.getElementById("output-content").style.visibility = "hidden";
+        // document.getElementById("output-content").style.visibility = "hidden";
     }
 }
 
 function clearFields() {
     document.getElementById("output").innerHTML = "";
-    document.getElementById("output-content").style.visibility = "hidden";
+    // document.getElementById("output-content").style.visibility = "hidden";
     document.getElementById("error-content").style.visibility = "hidden";
     document.getElementById("number-input").value = "";
     document.getElementById("number2-input").value = "";

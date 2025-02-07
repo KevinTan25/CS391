@@ -80,18 +80,20 @@ nav a:hover {
 #education-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 100%;
-    padding: 8vh;
+    max-width: 100%;
+    padding: 4vh;
     background-color: #00246B;
 }
+
 
 /* School Box */
 .school {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30vw;
+    width: 100%;
     background-color: #D8E2DC;
     padding: 2vh;
     border-radius: 10px;
@@ -176,6 +178,10 @@ footer a:hover {
     main {
         width: 100%;
     }
+
+    h3 {
+        font-size: calc(3vw);
+    }
     
     #education-container {
         flex-direction: column;
@@ -189,5 +195,9 @@ footer a:hover {
 
     .school p {
         font-size: (2px + 1.5vw);
+    }
+    
+    .school-logo {
+        max-width: 100%;
     }
 }

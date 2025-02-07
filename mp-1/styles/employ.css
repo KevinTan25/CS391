@@ -173,6 +173,10 @@ footer a:hover {
     }
     
     /* Main Content */
+    #emploment-main {
+        justify-content: center;
+    }
+
     .employments {
         padding: 2vh;
         margin-bottom: 2vh;
@@ -184,6 +188,10 @@ footer a:hover {
     
     .company, .job-dates {
         font-size: (2px + 1.5vw);
+    }
+
+    #wtcimg {
+        max-width: 100%;
     }
     
 }

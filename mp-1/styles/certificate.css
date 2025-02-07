@@ -219,4 +219,8 @@ footer a:hover {
     .skills-list {
         font-size: calc(1vh + 1vw);
     }
+
+    .logo {
+        max-width: 100%;
+    }
 }

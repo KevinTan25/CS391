@@ -203,6 +203,23 @@ footer a:hover {
     text-align: center;
 }
 
+#output {
+    width: 20vw;
+    height: 10vh;
+    padding: 4vh;
+    font-size: calc(1vh + 0.8vw);
+    border: 2px solid #00246B;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 #error-message {
     color: red;
 }
@@ -269,7 +286,7 @@ footer a:hover {
     }
     
     .project-title {
-        font-size: calc(2vh + 1vw);
+        font-size: calc(2vh + 2vw);
     }
     
     .date {
@@ -283,6 +300,11 @@ footer a:hover {
 
     .calc-input {
         width: 80%;
+        font-size: calc(3vw);
+    }
+
+    #number1, #number2 {
+        font-size: calc(3vw);
     }
 
     #calc-btn {
@@ -296,5 +318,10 @@ footer a:hover {
 
     #output-content, #error-content {
         font-size: calc(4vw);
+    }
+
+    #output {
+        width: 100%;
+        font-size: calc(3vw);
     }
 }
