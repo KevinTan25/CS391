@@ -234,7 +234,12 @@ footer a:hover {
     
     /* Main Content */
     .contact-logo {
+        width: 7vw ;
         max-width: 100%;
+    }
+
+    .titles {
+        font-size: calc(3vh + 1vw);
     }
 
     /* Adjust widths of content sections */
