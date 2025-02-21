@@ -35,7 +35,7 @@ const CardImage = styled.img`
 
 const InfoText = styled.p`
     margin: 5px 0;
-    font-size: calc(1vw + 5px);
+    font-size: calc(1vw + 6px);
 `;
 
 const AttacksContainer = styled.div`
@@ -71,7 +71,7 @@ export default function Pokemon(props : { data : Cards[] }) {
                 <SingleCardDiv key={chars.id} rarity={chars.rarity}>
                     <h1>{chars.name}</h1>
 
-                    <h3>{chars.rarity || "Rarity: Unknown"}</h3>
+                    <Heading3>{chars.rarity || "Rarity: Unknown"}</Heading3>
 
                     <InfoText><strong>HP:</strong> {chars.hp}</InfoText>
                     <InfoText><strong>Types:</strong> {chars.types}</InfoText>
