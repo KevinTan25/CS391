@@ -35,7 +35,7 @@ const CardImage = styled.img`
 
 const InfoText = styled.p`
     margin: 5px 0;
-    font-size: calc(1vw);
+    font-size: calc(1vw + 5px);
 `;
 
 const AttacksContainer = styled.div`
@@ -51,13 +51,17 @@ const WeaknessesContainer = styled.div`
 `;
 
 const AttackText = styled.p`
-    font-size: calc(0.9vw);
+    font-size: calc(0.4vw + 9px);
     margin: 5px 0;
 `;
 
 const WeaknessText = styled.p`
-    font-size: calc(1vw);
+    font-size: calc(0.5vw + 10px);
     color: #FF6B6B;
+`;
+
+const Heading3 = styled.h3`
+    font-size: calc(1vw + 7px);
 `;
 
 export default function Pokemon(props : { data : Cards[] }) {
@@ -75,7 +79,7 @@ export default function Pokemon(props : { data : Cards[] }) {
                     <CardImage src={chars.images.small} alt={`Image of ${chars.name}`} />
 
                     <AttacksContainer>
-                        <h3>Attacks:</h3>
+                        <Heading3>Attacks:</Heading3>
                         {(chars.attacks != null && chars.attacks.length > 0) ? (
                             chars.attacks.map((attack, index) => (
                                 <AttackText key={index}>
@@ -90,7 +94,7 @@ export default function Pokemon(props : { data : Cards[] }) {
                     </AttacksContainer>
 
                     <WeaknessesContainer>
-                        <h3>Weaknesses:</h3>
+                        <Heading3>Weaknesses:</Heading3>
                         {(chars.weaknesses != null && chars.weaknesses.length > 0) ? (
                             chars.weaknesses.map((weakness, index) => (
                                 <WeaknessText key={index}>
