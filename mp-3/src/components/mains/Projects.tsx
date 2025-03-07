@@ -1,5 +1,7 @@
 import styled from 'styled-components';
+import { useEffect } from "react";
 import Calculator from "./Calculator.tsx"
+import { useParams } from "react-router-dom";
 
 const StyledMain = styled.main`
     padding: 2vh;
@@ -71,7 +73,21 @@ const Desc = styled.ul`
     padding-left: 2vw;
 `;
 
-export default function Projects() {
+export default function Projects({setTitle} : {setTitle : (title: string) => void}) {
+    // Usage of this useEffect found in lab 3 and Piazza
+    const currentPath = useParams();
+    let lastValue = Object.values(currentPath).pop() || "";
+    lastValue = lastValue.charAt(0).toUpperCase() + lastValue.slice(1);
+    useEffect(()=>{
+        if (lastValue === ""){
+            document.title = "Home | Resume";
+        } else {
+            document.title = lastValue + " | Resume";
+        }
+        setTitle("Kevin Tan's Projects");
+    },[setTitle, lastValue])
+
+
     return (
         <>
             <StyledMain>

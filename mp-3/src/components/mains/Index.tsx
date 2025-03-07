@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { useEffect } from "react";
+import { useParams } from "react-router-dom";
 
 const MainContainer = styled.main`
     display: flex;
@@ -57,7 +59,20 @@ const StyledP = styled.p`
     }
 `;
 
-export default function Index() {
+export default function Index({setTitle} : {setTitle : (title: string) => void}) {
+    const currentPath = useParams();
+    let lastValue = Object.values(currentPath).pop() || "";
+    lastValue = lastValue.charAt(0).toUpperCase() + lastValue.slice(1);
+    useEffect(()=>{
+        if (lastValue === ""){
+            document.title = "Home | Resume";
+        } else {
+            document.title = lastValue + " | Resume";
+        }
+        setTitle("Kevin Tan's Resume");
+    },[setTitle, lastValue])
+
+
     return (
         <>
             <MainContainer>

@@ -142,6 +142,7 @@ export default function Calculator() {
 
         if (number1 === "" || number2 === "") {
             setError("Please fill the boxes.");
+            return;
         } else if (isNaN(num1)) {
             setError("Input number 1 is not a number. Please enter a valid number.");
         } else if (isNaN(num2)) {

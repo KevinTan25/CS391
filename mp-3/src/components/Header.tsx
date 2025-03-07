@@ -37,11 +37,11 @@ const HeaderImage = styled.img`
     }
 `;
 
-export default function Header() {
+export default function Header({props} : {props : string}) {
     return (
         <>
             <StyledHeader>
-                <Title>Kevin Tan's Resume</Title>
+                <Title>{props}</Title>
                 <p>Online Work Resume</p>
                 <br/>
                 <HeaderImage src="/nycbackground.jpg" alt="Image of NYC at Night"/>

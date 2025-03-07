@@ -55,54 +55,23 @@ const StyledLink = styled(Link)`
     width: 100%;
     padding: 1vh;
     border-radius: 5px;
-
-    // Don't know if this is how to do hover
+    
     &:hover {
         background: #003366;
     }
 `;
-
-// const StyledRoute = styled(Route)`
-//     text-decoration: none;
-//     color: #F0F8FF;
-//     display: block;
-//     width: 100%;
-//     padding: 1vh;
-//     border-radius: 5px;
-//
-//     // Don't know if this is how to do hover
-//     &:hover {
-//         background: #003366;
-//     }
-// `;
-//
-// function Root() {
-//     return(
-//         <>
-//             <Routes>
-//                 <ListItem><StyledRoute path="/*" element={<Index/>} /></ListItem>
-//                 {/*  Add more paths here when doing them  */}
-//             </Routes>
-//         </>
-//     );
-// }
-//
-// const router = createBrowserRouter(
-//     [{path: "*", Component: Root}]
-// )
 
 export default function Nav() {
     return (
         <>
             <NavContainer>
                 <UnorderedNav>
-                    {/*<RouterProvider router={router} />*/}
                     <ListItem><StyledLink to="/">Home</StyledLink></ListItem>
                     <ListItem><StyledLink to="/education">Education</StyledLink></ListItem>
                     <ListItem><StyledLink to="/employment">Employment</StyledLink></ListItem>
                     <ListItem><StyledLink to="/projects">Projects</StyledLink></ListItem>
                     <ListItem><StyledLink to="/certificates">Certificates</StyledLink></ListItem>
-                    <ListItem><StyledLink to="/contact">Contact</StyledLink></ListItem>
+                    <ListItem><StyledLink to="/contacts">Contact</StyledLink></ListItem>
                 </UnorderedNav>
             </NavContainer>
         </>

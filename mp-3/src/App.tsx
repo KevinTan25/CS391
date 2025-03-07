@@ -1,5 +1,6 @@
 import { createBrowserRouter, Route, Routes, RouterProvider } from "react-router-dom";
 import styled from "styled-components";
+import {useState} from "react";
 
 import Header from "./components/Header";
 import Nav from "./components/Nav";
@@ -10,6 +11,8 @@ import Index from "./components/mains/Index.tsx";
 import Education from "./components/mains/Education.tsx";
 import Employment from "./components/mains/Employment.tsx";
 import Projects from "./components/mains/Projects.tsx";
+import Certificates from "./components/mains/Certificates.tsx";
+import Contacts from "./components/mains/Contacts.tsx";
 
 
 const PageWrapper = styled.div`
@@ -36,17 +39,22 @@ const Container = styled.div`
 `;
 
 function Root() {
+    // Usage of this useState to pass info to child components found in lab 3
+    const [title, setTitle] = useState("");
+
     return (
         <>
             <PageWrapper>
-                <Header />
+                <Header props={title} />
                 <Container>
                     <Nav />
                     <Routes>
-                        <Route path="/" element={<Index />}/>
-                        <Route path="/education" element={<Education />}/>
-                        <Route path="/employment" element={<Employment />}/>
-                        <Route path="/projects" element={<Projects />}/>
+                        <Route path={"/"} element={<Index setTitle={setTitle} />}/>
+                        <Route path={"/education"} element={<Education setTitle={setTitle} />}/>
+                        <Route path={"/employment"} element={<Employment setTitle={setTitle} />}/>
+                        <Route path={"/projects"} element={<Projects setTitle={setTitle} />}/>
+                        <Route path={"/certificates"} element={<Certificates setTitle={setTitle} />}/>
+                        <Route path={"/contacts"} element={<Contacts setTitle={setTitle} />} />
                     </Routes>
                 </Container>
                 <Footer />
