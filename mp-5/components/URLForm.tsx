@@ -22,9 +22,9 @@ export default function NewPostForm({ append }: { append: (post: URLs) => void }
 
 
     return (
-        <div className="flex items-center justify-center mt-10">
+        <div className="flex items-center justify-center mt-10 w-full">
             <form
-                className="w-200 p-6 bg-blue-400 rounded-md shadow-md"
+                className="w-4/5 p-6 bg-blue-400 rounded-md shadow-md sm:w-4/5 lg:w-200"
                 onSubmit={async (event) => {
                     event.preventDefault();
 

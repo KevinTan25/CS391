@@ -18,7 +18,7 @@ export default function Home() {
             <NewPostForm append={append} /> {/* Pass append function to NewPostForm */}
             <div className="flex flex-col items-center w-full bg-cyan-100">
                 {urls.map((url, index) => (
-                    <div key={index} className="rounded-md p-4 mt-4 w-200 bg-blue-400 shadow-sm font-mono text-white mb-6">
+                    <div key={index} className="rounded-md p-4 mt-4 w-4/5 bg-blue-400 shadow-sm font-mono text-white mb-6 sm:w-4/5 lg:w-200">
                         <p><strong>Original URL:</strong> {url.originalURL}</p>
                         <p><strong>Shortened URL: </strong>
                             <a href={url.shortenedURL} target="_blank" className="hover:text-black">
