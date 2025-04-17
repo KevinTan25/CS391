@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dbd966e5-f98e-46be-a9de-b065125f8698" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../mp-4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/.idea/mp-4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/app/[query]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/app/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/eslint.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/lib/helpfunc.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/next.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/postcss.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/public/file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/public/globe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/public/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/public/window.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/tmdb.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mp-4/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mp-1/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mp-1/calculator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mp-1/styles/certificate.css" beforeDir="false" afterPath="$PROJECT_DIR$/../mp-1/styles/certificate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mp-1/styles/docs.css" beforeDir="false" afterPath="$PROJECT_DIR$/../mp-1/styles/docs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mp-1/styles/education.css" beforeDir="false" afterPath="$PROJECT_DIR$/../mp-1/styles/education.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mp-1/styles/employ.css" beforeDir="false" afterPath="$PROJECT_DIR$/../mp-1/styles/employ.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mp-1/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/../mp-1/styles/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mp-1/styles/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/../mp-1/styles/project.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2vq4n1QAAGeKqzRUaRtYaxsl4e5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/kevintan/Downloads/CS 391/mp-2/mp-2/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbd966e5-f98e-46be-a9de-b065125f8698" name="Changes" comment="" />
+      <created>1744859433875</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744859433875</updated>
+      <workItem from="1744859435021" duration="65000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
