@@ -123,7 +123,7 @@ main {
 }
 
 #github-link:hover {
-    background-color: #003366;
+    background-color: #809BCE;
 }
 
 
@@ -240,7 +240,8 @@ footer a:hover {
 /* Responsive Design */
 @media screen and (max-width: 900px) {
     #page-wrapper {
-        width: 100%
+        width: 70%;
+        margin: 0vh auto;
     }
 
     header {
@@ -275,7 +276,7 @@ footer a:hover {
     }
     
     nav li {
-        font-size: calc(2px + 1.5vw);
+        font-size: calc(2px + 1.0vw);
         width: auto;
         padding: 1% 1%;
         margin: 1% .5%;
@@ -325,6 +326,7 @@ footer a:hover {
     .calc-buttons {
         font-size: calc(1vh + 2vw);
         padding: 1vh 3vw;
+        margin-bottom: 1vh;
     }
 
     #output-content, #error-content {

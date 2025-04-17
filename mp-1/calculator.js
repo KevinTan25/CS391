@@ -8,7 +8,7 @@ function addition() {
     let errorMessage = "";
     let output = 0;
 
-    if (num == "" || num2 == "") {
+    if (num === "" || num2 === "") {
         errorMessage = "Please fill the boxes."
     } else if (isNaN(num)) {
         errorMessage += "Input number 1 is not a number. Please enter a valid number.";
@@ -21,6 +21,12 @@ function addition() {
         document.getElementById("error-content").style.visibility = "hidden";
 
         output = num + num2;
+
+        if (output < 0) {
+            document.getElementById("output").style.color = "red";
+        } else {
+            document.getElementById("output").style.color = "black";
+        }
 
         document.getElementById("output").innerHTML = output;
     } else {
@@ -40,7 +46,7 @@ function subtract() {
     let errorMessage = "";
     let output = 0;
 
-    if (num == "" || num2 == "") {
+    if (num === "" || num2 === "") {
         errorMessage = "Please fill the boxes."
     } else if (isNaN(num)) {
         errorMessage += "Input number 1 is not a number. Please enter a valid number.";
@@ -53,6 +59,12 @@ function subtract() {
         document.getElementById("error-content").style.visibility = "hidden";
 
         output = num - num2;
+
+        if (output < 0) {
+            document.getElementById("output").style.color = "red";
+        } else {
+            document.getElementById("output").style.color = "black";
+        }
 
         document.getElementById("output").innerHTML = output;
     } else {
@@ -72,7 +84,7 @@ function multiply() {
     let errorMessage = "";
     let output = 0;
 
-    if (num == "" || num2 == "") {
+    if (num === "" || num2 === "") {
         errorMessage = "Please fill the boxes."
     } else if (isNaN(num)) {
         errorMessage += "Input number 1 is not a number. Please enter a valid number.";
@@ -85,6 +97,12 @@ function multiply() {
         document.getElementById("error-content").style.visibility = "hidden";
 
         output = num * num2;
+
+        if (output < 0) {
+            document.getElementById("output").style.color = "red";
+        } else {
+            document.getElementById("output").style.color = "black";
+        }
 
         document.getElementById("output").innerHTML = output;
     } else {
@@ -104,7 +122,7 @@ function divide() {
     let errorMessage = "";
     let output = 0;
 
-    if (num == "" || num2 == "") {
+    if (num === "" || num2 === "") {
         errorMessage = "Please fill the boxes."
     } else if (isNaN(num)) {
         errorMessage += "Input number 1 is not a number. Please enter a valid number.";
@@ -119,6 +137,12 @@ function divide() {
         document.getElementById("error-content").style.visibility = "hidden";
         
         output = num / num2;
+
+        if (output < 0) {
+            document.getElementById("output").style.color = "red";
+        } else {
+            document.getElementById("output").style.color = "black";
+        }
 
         document.getElementById("output").innerHTML = output;
     } else {
@@ -140,7 +164,7 @@ function power() {
     let errorMessage = "";
     let output = 1;
 
-    if (num == "" || pow == "") {
+    if (num === "" || pow === "") {
         errorMessage = "Please fill the boxes."
     } else if (isNaN(num)) {
         errorMessage += "Input number is not a number. Please enter a valid number.";
@@ -165,6 +189,12 @@ function power() {
                 tempNum = tempNum * num;
             }
             output = 1 / tempNum;
+        }
+
+        if (output < 0) {
+            document.getElementById("output").style.color = "red";
+        } else {
+            document.getElementById("output").style.color = "black";
         }
 
         document.getElementById("output").innerHTML = output;
