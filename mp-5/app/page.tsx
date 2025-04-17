@@ -11,12 +11,12 @@ export default function Home() {
     };
 
     return (
-        <div className="flex flex-col items-center bg-cyan-100 py-10 gap-5">
+        <div className="flex flex-col items-center bg-cyan-100 py-10 gap-5 h-screen">
             <h1 className="font-mono text-grey-900 font-bold text-4xl mt-20">URL Shortener</h1>
             <p className="font-mono text-grey-900">Shorten your long URLs. Coded in Next.js.</p>
 
             <NewPostForm append={append} /> {/* Pass append function to NewPostForm */}
-            <div className="">
+            <div className="flex flex-col items-center w-full bg-cyan-100">
                 {urls.map((url, index) => (
                     <div key={index} className="rounded-md p-4 mt-4 w-200 bg-blue-400 shadow-sm font-mono text-white mb-6">
                         <p><strong>Original URL:</strong> {url.originalURL}</p>
